@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fba4ce0-3cae-4aae-a3b8-f1c2e7d260d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../feign/src/main/java/com/springcloudl/feign/hystrix/SchedualServiceHiHystric.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ribbon/src/main/java/com/springcloudl/ribbon/RibbonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ribbon/src/main/java/com/springcloudl/ribbon/RibbonApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ribbon/src/main/java/com/springcloudl/ribbon/service/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ribbon/src/main/java/com/springcloudl/ribbon/service/HelloService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../feign/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../feign/src/main/java/com/springcloudl/feign/FeignApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../feign/src/main/java/com/springcloudl/feign/FeignApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../feign/src/main/java/com/springcloudl/feign/feign/SchedualServiceHi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../feign/src/main/java/com/springcloudl/feign/feign/SchedualServiceHi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../feign/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,7 +38,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/eureka-client/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
@@ -53,11 +56,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-client/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="267">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -198,12 +210,12 @@
       <workItem from="1563154681793" duration="1505000" />
       <workItem from="1563191328249" duration="5840000" />
       <workItem from="1563237108168" duration="15000" />
-      <workItem from="1563278655150" duration="1766000" />
+      <workItem from="1563278655150" duration="4381000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12120000" />
+    <option name="totallyTimeSpent" value="14735000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
@@ -219,7 +231,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5852048" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2734478" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -265,13 +277,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/springcloudl/eurekaserver/EurekaServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -279,10 +284,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="22" />
+        <state relative-caret-position="267">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -293,10 +298,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/eureka-client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="107">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="22" />
         </state>
       </provider>
     </entry>
